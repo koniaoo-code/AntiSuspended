@@ -6,23 +6,14 @@ Claude Code, региональные настройки по выходному
 
 ## Запуск
 
-Скачай проект и открой меню:
+Скачай скрипт и открой меню одной командой:
 
 ```sh
-git clone https://github.com/narezy/AntiSuspended.git
-cd AntiSuspended
-python3 claude-profile.py
+curl -fsSL https://raw.githubusercontent.com/narezy/AntiSuspended/main/claude-profile.py -o claude-profile.py && python3 claude-profile.py
 ```
 
-Название проекта не означает защиту от блокировок: инструмент управляет
-локальными профилями и настройками. Оценка узнаваемости для Claude не рассчитывается.
-
-
-Сохрани `claude-profile.py` в удобную папку и выполни:
-
-```sh
-python3 claude-profile.py
-```
+Команда сохранит `claude-profile.py` в текущую папку и запустит его.
+После настройки меню можно открывать командой `claude-profile-manager`.
 
 Первый экран показывает, настроены ли профили и что делать дальше.
 Если всё готово, открой обычный ярлык Desktop или введи `claude` в новом
