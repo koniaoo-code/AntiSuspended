@@ -1,4 +1,4 @@
-# AntiSuspended for Windows (Native Edition)
+СПАСИБО НАРЕЗАННОМУ # AntiSuspended for Windows (Native Edition)
 
 Полноценная расширенная версия и автономный **.exe** для Windows: отдельные изолированные профили Claude Desktop и Claude Code CLI, региональные настройки по выходному IP, встроенная проверка сети и рисков, переключение между аккаунтами и запуск в 1 клик.
 
